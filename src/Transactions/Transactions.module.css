@@ -1,0 +1,31 @@
+.transactionHistory {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(129, 128, 128);
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.transactionHistory thead {
+    background-color: rgb(64, 205, 224);
+}
+
+.transactionHistory th {
+    width: 250px;
+    border: 1px solid white;
+    color: white;
+}
+
+.transactionHistory tbody tr:nth-child(odd){
+    background-color: silver;
+}
+
+.transactionHistory tbody {
+    text-align: center;
+    color: gray;
+}
+
+.transactionHistory td {
+    border: 1px solid gray;
+}
